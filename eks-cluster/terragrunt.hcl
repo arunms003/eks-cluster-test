@@ -1,5 +1,5 @@
 terraform {
-  source = "/share/gruntworks/infrastructure-modules/services/eks-cluster"
+  source = "git@github.com/arunms003/eks-cluster-test//eks-cluster?ref=v1.1"
 }
 
 inputs = {
