@@ -1,5 +1,5 @@
 terraform {
-  source = "git@github.com/arunms003/eks-cluster-test//eks-cluster?ref=v1.1"
+  source = "git@github.com/arunms003/eks-cluster-test.git//services/eks-cluster?ref=v1.2"
 }
 
 inputs = {
