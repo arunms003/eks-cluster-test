@@ -3,7 +3,7 @@ provider "aws" {
   region = var.aws_region
 
   # Require a 2.x version of the AWS provider
-  version = "~> 2.6"
+  version = "~> 5.0"
 
   # Only these AWS Account IDs may be operated on by this template
   allowed_account_ids = [var.aws_account_id]
