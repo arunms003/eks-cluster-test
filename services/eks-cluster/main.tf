@@ -138,7 +138,7 @@ module "eks_k8s_role_mapping" {
 }
 
 provider "kubernetes" {
-  version = "~> 1.6"
+  version = "~> 2.0"
 
   load_config_file       = false
   host                   = data.template_file.kubernetes_cluster_endpoint.rendered
